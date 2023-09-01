@@ -46,6 +46,6 @@ uni-schedule create
 - Add command to show full schedule
 - Remove quotes from output
 ## Created by
-Valeria Strygina [(@hunnybee-val)](github.com/hunnybee-val)
+Valeria Strygina (@hunnybee-val)
 ## Licence
 [MIT](https://github.com/hunnybee-val/uni-schedule/blob/master/LICENSE)
