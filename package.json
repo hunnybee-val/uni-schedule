@@ -1,0 +1,29 @@
+{
+  "name": "uni-schedule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@inquirer/prompts": "^3.0.4",
+    "chalk": "^5.3.0",
+    "cli-table": "^0.3.11",
+    "commander": "^11.0.0",
+    "jsonfile": "^6.1.0",
+    "modify-json-file": "^1.2.2",
+    "path": "^0.12.7",
+    "url": "^0.11.1"
+  },
+  "bin": {
+    "uni-schedule": "./index.js"
+  },
+  "devDependencies": {
+    "@types/cli-table": "^0.3.1"
+  }
+}
