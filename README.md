@@ -45,7 +45,7 @@ uni-schedule create
 - Add install instructions
 - Add command to show full schedule
 - Remove quotes from output
-  ## Created by
-  Valeria Strygina [(@hunnybee-val)](github.com/hunnybee-val)
-  ## Licence
-  [MIT](https://github.com/hunnybee-val/uni-schedule/blob/master/LICENSE)
+## Created by
+Valeria Strygina [(@hunnybee-val)](github.com/hunnybee-val)
+## Licence
+[MIT](https://github.com/hunnybee-val/uni-schedule/blob/master/LICENSE)
