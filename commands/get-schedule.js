@@ -4,8 +4,14 @@ import { readFileSync } from "fs";
 import select from "@inquirer/select";
 import Table from "cli-table";
 import chalk from "chalk";
+import path from "path";
+import { fileURLToPath } from "url";
 
-const schedule = JSON.parse(readFileSync("./schedule.json"));
+const __filename = fileURLToPath(import.meta.url);
+
+const __dirname = path.dirname(__filename);
+
+const schedule = JSON.parse(readFileSync(`${__dirname}/schedule.json`));
 
 function getSchedule(weekday) {
   const periods = [
