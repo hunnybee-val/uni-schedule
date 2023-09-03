@@ -105,7 +105,7 @@ export function getTomorrowSchedule() {
     "saturday",
   ];
   let date = new Date();
-  if (date.getDay() === 0) {
+  if (date.getDay() + 1 === 0) {
     console.log("В воскресенье никто не учится.");
   } else {
     getSchedule(weekdays[(date.getDay() + 1) % 7]);
